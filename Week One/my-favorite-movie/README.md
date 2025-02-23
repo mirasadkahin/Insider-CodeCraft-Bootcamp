@@ -1,0 +1,2 @@
+# MY FAVORİTE MOVİE
+In this project, we created a design that describes our favorite TV series. While building this page, I used HTML, CSS, and JS. While working on this site, I improved myself in a few areas and also learned a few new things through this project.
