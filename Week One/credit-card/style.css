@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+}
+
+.credit-card {
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(135deg, #000000, #333333);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+
+.credit-card:hover {
+    transform: scale(1.05);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chip {
+    width: 50px;
+    filter: brightness(0.8);
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+.card-number {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-holder p, .expiry p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+
+
+
+.card-container {
+    width: 350px;
+    height: 200px;
+    perspective: 1000px; 
+}
+
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: transform 0.8s;
+}
+
+
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.card-back {
+    background: linear-gradient(45deg, #1e90ff, #00bfff);
+    transform: rotateY(180deg);
+}
+
+.card-back-top {
+    font: 7px Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 0px 20px;
+}
+ .magnetic{
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+ }
+  .signature{
+    max-width: 90%;
+    margin: 0px 0px 0px 20px;
+    font-size: large;
+    background-color: white;
+    
+ }
+ hr{
+    margin: 0px 0px 2px 0px;
+    width: 80%;
+ }
+ .signature p{
+    color: black;
+    
+ }
+ .card-back-bottom{
+    font: 7px Arial;
+   
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+ }

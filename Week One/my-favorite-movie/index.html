@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago PD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="nav-brand">Chicago PD</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#favorite-scene">Favorite Scene</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="profile-menu">
+                    <button class="profile-btn" aria-label="Profile menu">
+                        <div class="profile-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="profile-menu-dropdown">
+                            <a href="#" class="profile-menu-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                My Profile
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                </svg>
+                                Favorites
+                            </a>
+                            <a href="#" class="profile-menu-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                                </svg>
+                                Settings
+                            </a>
+                            <div class="profile-menu-divider"></div>
+                            <a href="#" class="profile-menu-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                </svg>
+                                Logout
+                            </a>
+                        </div>
+                    </button>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="home">
+            <div class="container">
+                <div class="title-container">
+                    <a href="https://www.imdb.com/title/tt2805096/" target="_blank" rel="noopener noreferrer" class="title-link">
+                        <h1>Chicago PD</h1>
+                        <svg class="external-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </a>
+                    <button id="favorite-btn" class="favorite-btn">
+                        <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <span>Add to Favorites</span>
+                    </button>
+                </div>
+                <img src="assets/images/ChicagoPD.png" alt="Chicago PD Poster" class="hero-image">
+                <p class="hero-description">
+                    Follow the personal and professional lives of the men and women of the Chicago Police Department's elite Intelligence Unit as they combat organized crime, drug trafficking, and high-profile murders in the Windy City.
+                </p>
+            </div>
+        </section>
+
+        <section id="characters" class="characters">
+            <div class="container">
+                <h2>Main Characters</h2>
+                <div class="character-grid">
+                    <div class="character-card">
+                        <img src="assets/images/hank-voight.webp" alt="Hank Voight">
+                        <h3>Hank Voight</h3>
+                        <p class="actor">Played by Jason Beghe</p>
+                        <p class="description">The tough and morally ambiguous leader of the Intelligence Unit who will stop at nothing to protect his city.</p>
+                    </div>
+                    <div class="character-card">
+                        <img src="assets/images/kim-burgess.webp" alt="Kim Burgess">
+                        <h3>Kim Burgess</h3>
+                        <p class="actor">Played by Marina Squerciati</p>
+                        <p class="description">A former patrol officer turned Intelligence detective known for her empathy and determination.</p>
+                    </div>
+                    <div class="character-card">
+                        <img src="assets/images/adam-ruzek.webp" alt="Adam Ruzek">
+                        <h3>Adam Ruzek</h3>
+                        <p class="actor">Played by Patrick John Flueger</p>
+                        <p class="description">A young officer recruited directly from the police academy to Intelligence, known for his impulsive nature.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="favorite-scene" class="favorite-scene">
+            <div class="container">
+                <h2>Favorite Scene</h2>
+                <div class="scene-content">
+                    <h3>"You're not going anywhere"</h3>
+                    <p>
+                        In this scene, the team, who are actually there for a different raid, encounter a surprise. This surprise shakes the team and leads them to intensive work and research. As a result of this research, the team solves the case and the children in Chicago are safe.
+                    </p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U1_2O4FrBeY?si=SfW7DO8LzglnDCYW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="episodes" class="episodes">
+            <div class="container">
+                <h2>Notable Episodes</h2>
+                <div class="episode-grid">
+                    <div class="episode-card" data-episode="1">
+                        <h3>Stepping Stone</h3>
+                        <div class="episode-info">
+                            <span class="season">Season 1</span>
+                            <span class="episode-number">Episode 1</span>
+                        </div>
+                        <p class="preview-text">The Intelligence Unit investigates a drug-related murder...</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="episode-card" data-episode="2">
+                        <h3>Start Digging</h3>
+                        <div class="episode-info">
+                            <span class="season">Season 3</span>
+                            <span class="episode-number">Episode 23</span>
+                        </div>
+                        <p class="preview-text">Voight's son becomes involved in a murder investigation...</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="episode-card" data-episode="3">
+                        <h3>Reform</h3>
+                        <div class="episode-info">
+                            <span class="season">Season 4</span>
+                            <span class="episode-number">Episode 8</span>
+                        </div>
+                        <p class="preview-text">The team investigates a series of brutal home invasions...</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="episode-card" data-episode="4">
+                        <h3>Reckoning</h3>
+                        <div class="episode-info">
+                            <span class="season">Season 6</span>
+                            <span class="episode-number">Episode 22</span>
+                        </div>
+                        <p class="preview-text">The team works to solve the murder of a fellow officer...</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                    <div class="episode-card" data-episode="5">
+                        <h3>Lines</h3>
+                        <div class="episode-info">
+                            <span class="season">Season 8</span>
+                            <span class="episode-number">Episode 16</span>
+                        </div>
+                        <p class="preview-text">Voight and the team must navigate a delicate situation...</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="episode-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title"></h3>
+            <div class="modal-episode-info"></div>
+            <p class="modal-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Designed by M.S.Ş © 2025</p>
+            <div class="social-links">
+                <a href="https://github.com/mirasadkahin" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/mira%C3%A7-sad%C4%B1k-%C5%9Fahin-74701a239/" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
