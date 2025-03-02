@@ -1,0 +1,2 @@
+# TASK LIST
+In this project, I developed a page where you can write your daily tasks and track them. I used HTML, CSS and JS while creating this page. While developing this site, I received artificial intelligence support in the parts I was lacking. While working on this site, I improved myself in several areas and also learned a few new things through this project.
