@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvuru Formu</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="showForm">Başvuru Yap</button>
+        <form id="jobForm">
+            <label>Ad:</label>
+            <input type="text" name="ad" required>
+            
+            <label>Soyad:</label>
+            <input type="text" name="soyad" required>
+            
+            <label>E-posta:</label>
+            <input type="email" name="email" required>
+            
+            <label>Telefon:</label>
+            <input type="text" name="telefon" required>
+            
+            <label>Pozisyon:</label>
+            <input type="text" name="pozisyon" required>
+            
+            <label>Doğum Tarihi:</label>
+            <input type="text" id="dob" name="dogum_tarihi" required>
+            
+            <button type="submit">Gönder</button>
+            <button type="button" id="closeForm">Kapat</button>
+        </form>
+        <p class="success">Başvurunuz başarıyla gönderildi!</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

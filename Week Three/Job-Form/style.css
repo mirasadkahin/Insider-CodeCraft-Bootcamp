@@ -1,0 +1,26 @@
+body { 
+    font-family: Arial, 
+    sans-serif; 
+    text-align: center; }
+.container {
+     width: 50%; 
+     margin: auto; }
+form { 
+    display: none; 
+    padding: 20px; 
+    background: #f4f4f4; 
+    border-radius: 10px; }
+input { 
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; }
+label { 
+    font-weight: bold; }
+.error { 
+    color: red; 
+    font-size: 14px; }
+.success { 
+    display: none; 
+    color: green; 
+    font-weight: bold; }
