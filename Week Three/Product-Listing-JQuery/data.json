@@ -1,0 +1,32 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "HUAWEI Pura 70 Ultra 16/512",
+        "price": "55.000 TL",
+        "image": "https://www.teknomehmet.net/wp-content/uploads/2024/04/huawei-pura-70-ultraa-600x600.jpg",
+        "description": "6.7 inç Super AMOLED ekran, 108MP ana kamera, 5000mAh batarya, 256GB depolama"
+      },
+      {
+        "id": 2,
+        "name": "HUAWEI MateBook D 15 2022",
+        "price": "25.999 TL",
+        "image": "https://img01.huaweifile.com/eu/tr/huawei/uomcdn/TRHW/pms/202301/gbom/6941487287628/428_428_4F0ACB9DCEE980C8C6B3746AC728C7E6mp.jpg",
+        "description": "Intel i9 işlemci, 32GB RAM, 1TB NVMe SSD, 16 inç 4K ekran, 12 saat pil ömrü"
+      },
+      {
+        "id": 3,
+        "name": "HUAWEI FreeBuds Pro 4",
+        "price": "7.499 TL",
+        "image": "https://img01.huaweifile.com/eu/tr/huawei/pms/uomcdn/TRHW/pms/202412/gbom/6942103138768/800_800_CEE4090AC91EA8B03BA288DCD42431E7mp.png",
+        "description": "Gelişmiş gürültü engelleme, 40 saat pil ömrü, Hi-Res ses sertifikası, çift sürücü"
+      },
+      {
+        "id": 4,
+        "name": "Huawei MatePad 11.5 S PaperMatte Edition",
+        "price": "16.999 TL",
+        "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-5-2024/images/hero/huawei-matepad-11-5-kv-2x.webp",
+        "description": "Çoklu Dokunmatik (10 nokta), Göz Konforu Modu (Mavi Işık Filtresi), P3 (Geniş Renk Yelpazesi), PaperMatte Ekran, TÜV Rheinland Titreşimsiz Sertifikasyonu"
+      }
+    ]
+  }
